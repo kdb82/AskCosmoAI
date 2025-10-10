@@ -8,6 +8,7 @@ an AI Chat Bot that will answer all your questions related to BYU!
 
  **OpenAI embedding info:** 
  <https://openai.com/index/new-embedding-models-and-api-updates/?utm_source=chatgpt.com>
+ Guide: <https://platform.openai.com/docs/guides/embeddings>
 
 ## Scraping ##
 Our starting goal is to scrape this single webpage:
