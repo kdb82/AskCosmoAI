@@ -6,5 +6,9 @@ an AI Chat Bot that will answer all your questions related to BYU!
 (still not 100% how exactly we want to handle the vectorization, will probably change later)
 
 
- ** OpenAI embedding info: ** 
+ **OpenAI embedding info:** 
  <https://openai.com/index/new-embedding-models-and-api-updates/?utm_source=chatgpt.com>
+
+## Scraping ##
+Our starting goal is to scrape this single webpage:
+<https://academiccalendar.byu.edu/2025-calendar-list-view>
