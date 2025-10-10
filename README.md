@@ -8,7 +8,10 @@ an AI Chat Bot that will answer all your questions related to BYU!
 
  **OpenAI embedding info:** 
  <https://openai.com/index/new-embedding-models-and-api-updates/?utm_source=chatgpt.com>
+ 
  Guide: <https://platform.openai.com/docs/guides/embeddings>
+
+ * looks like you can do vector embedding on pinecone! <https://www.pinecone.io/blog/simplifying-vector-embeddings-with-pinecone-hosted-inference/>
 
 ## Scraping ##
 Our starting goal is to scrape this single webpage:
