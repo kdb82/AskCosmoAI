@@ -8,8 +8,8 @@ namespace api.Controllers;
 public class HomeController : Controller
 {
     [HttpGet]
-    public IActionResult SayHello()
+    public ActionResult<string> SayHello()
     {
-        return Ok("Hello from server!");
+        return "Hello from server!";
     }
 }

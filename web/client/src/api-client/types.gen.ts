@@ -15,5 +15,7 @@ export type GetApiHomeResponses = {
     /**
      * OK
      */
-    200: unknown;
+    200: string;
 };
+
+export type GetApiHomeResponse = GetApiHomeResponses[keyof GetApiHomeResponses];

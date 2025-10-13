@@ -7,7 +7,7 @@ function App() {
   useEffect(() => {
     client.setConfig({ baseUrl: "http://localhost:5001" });
     getApiHome().then((res) => {
-      setApiMessage(res.data as string)
+      setApiMessage(res.data ?? "");
     });
   }, []);
 
