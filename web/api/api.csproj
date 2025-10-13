@@ -5,7 +5,9 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
+  <Target Name="GenerateSwaggerJson" AfterTargets="Build">
+    <Exec Command="dotnet swagger tofile --output $(ProjectDir)swagger/swagger.json $(TargetDir)$(AssemblyName).dll v1" />
+  </Target>
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.6" />
   </ItemGroup>
